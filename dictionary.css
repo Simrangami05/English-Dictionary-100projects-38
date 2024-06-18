@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(220, 2, 2), rgb(199, 130, 3));
+  font-family: cursive;
+}
+
+.container{
+  background-color: rgba(231, 255, 122, 0.972);
+  padding: 28px;
+  border-radius: 3px;
+  box-shadow: 0 10px 10px rgb(106, 0, 0);
+  width: 100%;
+  margin: 10px;
+  max-width: 550px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.heading{
+  font-size: 30px;
+}
+
+.input{
+  height: 60px;
+  width: 300px;
+  background-color: rgb(248, 212, 174);
+  border-color: rgba(139, 139, 139, 0.4);
+  font-size: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.meaning-container{
+  display: none;
+}
